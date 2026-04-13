@@ -1,0 +1,24 @@
+workflows:
+  android_release:
+    name: Android release workflow
+    environment:
+      android_signing:
+        - flow_sim_keystore
+      vars:
+        PACKAGE_NAME: "com.flowsim.simfwlos"
+    scripts:
+      - name: Force JVM memory settings
+        script: |
+          export GRADLE_OPTS="-Xmx6144m -XX:MaxMetaspaceSize=1024m -XX:+UseParallelGC -Dfile.encoding=UTF-8"
+          echo "Using GRADLE_OPTS=$GRADLE_OPTS"
+      - name: Set Android SDK location
+        script: |
+          echo "sdk.dir=$ANDROID_SDK_ROOT" > "$CM_BUILD_DIR/local.properties"
+      - name: Give gradlew execute permission
+        script: |
+          chmod +x ./gradlew
+      - name: Build Android Release
+        script: |
+          ./gradlew bundleRelease
+    artifacts:
+      - app/build/outputs/**/*.aab
