@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/flow_sim_graph"
+    app:startDestination="@id/flowSimLoadFragment">
+
+    <fragment
+        android:id="@+id/flowSimLoadFragment"
+        android:name="com.flowsim.simfwlos.gokrp.presentation.ui.load.FlowSimLoadFragment"
+        android:label="FlowSimLoadFragment" >
+        <action
+            android:id="@+id/action_flowSimLoadFragment_to_flowSimV"
+            app:destination="@id/flowSimV"
+            app:popUpTo="@id/flow_sim_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/flowSimV"
+        android:name="com.flowsim.simfwlos.gokrp.presentation.ui.view.FlowSimV"
+        android:label="FlowSimV" />
+</navigation>

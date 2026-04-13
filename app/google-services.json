@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "711794323509",
+    "project_id": "flowsim-d93a5",
+    "storage_bucket": "flowsim-d93a5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711794323509:android:0f85db5bdf4c2a2392c17c",
+        "android_client_info": {
+          "package_name": "com.flowsim.simfwlos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR6ofDHsKr36GZag-rMkZvLR9Z-mvMcqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
