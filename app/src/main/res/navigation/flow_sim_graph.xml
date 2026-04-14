@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/flowSimLoadFragment"
-        android:name="com.flowsim.simfwlos.gokrp.presentation.ui.load.FlowSimLoadFragment"
+        android:name="com.flowsim.flosasms.gokrp.presentation.ui.load.FlowSimLoadFragment"
         android:label="FlowSimLoadFragment" >
         <action
             android:id="@+id/action_flowSimLoadFragment_to_flowSimV"
@@ -16,6 +16,6 @@
     </fragment>
     <fragment
         android:id="@+id/flowSimV"
-        android:name="com.flowsim.simfwlos.gokrp.presentation.ui.view.FlowSimV"
+        android:name="com.flowsim.flosasms.gokrp.presentation.ui.view.FlowSimV"
         android:label="FlowSimV" />
 </navigation>

@@ -5,7 +5,7 @@ workflows:
       android_signing:
         - flow_sim_keystore
       vars:
-        PACKAGE_NAME: "com.flowsim.simfwlos"
+        PACKAGE_NAME: "com.flowsim.flosasms"
     scripts:
       - name: Force JVM memory settings
         script: |

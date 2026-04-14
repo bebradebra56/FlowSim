@@ -7,9 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:711794323509:android:0f85db5bdf4c2a2392c17c",
+        "mobilesdk_app_id": "1:711794323509:android:e9bc9c5ac5f3d86e92c17c",
         "android_client_info": {
-          "package_name": "com.flowsim.simfwlos"
+          "package_name": "com.flowsim.flosasms"
         }
       },
       "oauth_client": [],

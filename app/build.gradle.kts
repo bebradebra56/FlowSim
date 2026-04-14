@@ -8,11 +8,11 @@ plugins {
 }
 
 android {
-    namespace = "com.flowsim.simfwlos"
+    namespace = "com.flowsim.flosasms"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.flowsim.simfwlos"
+        applicationId = "com.flowsim.flosasms"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
